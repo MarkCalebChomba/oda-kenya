@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery - Oda Kenya</title>
+    <link rel="stylesheet" href="style for login.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Oda Kenya</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Oda Kenya</h1>
+            <p>Explore our beautiful image gallery</p>
+            <a href="#gallery" class="btn">View Gallery</a>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Image Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/image1.jpg" alt="Image 1">
+                <div class="caption">Caption for Image 1</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/image2.jpg" alt="Image 2">
+                <div class="caption">Caption for Image 2</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/image3.jpg" alt="Image 3">
+                <div class="caption">Caption for Image 3</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/image4.jpg" alt="Image 4">
+                <div class="caption">Caption for Image 4</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Oda Kenya. All rights reserved.</p>
+    </footer>
+</body>
+</html>
